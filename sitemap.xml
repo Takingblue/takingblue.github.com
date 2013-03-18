@@ -1,12 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://Takingblue.github.com/blog/2013/03/15/simple-html5-canvas-game-tutorial-arkanoid-part1/
+        </loc>
+        <lastmod>2013-03-18T22:48:45+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://Takingblue.github.com/blog/archives/</loc>
-        <lastmod>2013-03-13T21:59:42+08:00</lastmod>
+        <lastmod>2013-03-18T22:48:45+08:00</lastmod>
     </url>
     <url>
         <loc>http://Takingblue.github.com/</loc>
-        <lastmod>2013-03-13T21:59:42+08:00</lastmod>
+        <lastmod>2013-03-18T22:48:45+08:00</lastmod>
     </url>
     <url>
         <loc>http://Takingblue.github.com/robots.txt</loc>

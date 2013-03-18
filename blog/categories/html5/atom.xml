@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: HTML5 | Takingblue Murmuring]]></title>
+  <link href="http://Takingblue.github.com/blog/categories/html5/atom.xml" rel="self"/>
+  <link href="http://Takingblue.github.com/"/>
+  <updated>2013-03-18T22:49:28+08:00</updated>
+  <id>http://Takingblue.github.com/</id>
+  <author>
+    <name><![CDATA[Takingblue]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Simple HTML5 Canvas Game Tutorial: Arkanoid Part1]]></title>
+    <link href="http://Takingblue.github.com/blog/2013/03/15/simple-html5-canvas-game-tutorial-arkanoid-part1/"/>
+    <updated>2013-03-15T21:57:00+08:00</updated>
+    <id>http://Takingblue.github.com/blog/2013/03/15/simple-html5-canvas-game-tutorial-arkanoid-part1</id>
+    <content type="html"><![CDATA[<p>This is a pretty simple game based on HTML5 Canvas and basic javascript. It is easy to learn and just enjoy building it. I think almost everyone know Arkanoid, a little game which goal is to make all bricks disappear by using your little ball to hit them.</p>
+
+<p>Now, we are going to make it by ourselves.</p>
+
+<!--more-->
+
+
+<p>If you want to take a look the demo. Please refer to <a href="http://people.cs.nctu.edu.tw/~chenkuo/HTML5/Arkanoid/index.html">HERE</a>.
+And, <a href="https://github.com/Takingblue/Arkanoid-CanvasGame">source code of the whole project</a>.</p>
+
+<p>Now, build the index.html at first.
+``` html index.html
+&lt;!DOCTYPE HTML>
+<html></p>
+
+<pre><code>&lt;head&gt;
+    &lt;link rel="stylesheet" href="css/main.css"&gt;
+    &lt;script src="js/main.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;canvas id="paintGround"&gt;
+    &lt;/canvas&gt;
+&lt;/body&gt;
+</code></pre>
+
+<p></html>
+```
+It just do the following two things:</p>
+
+<ol>
+<li>Create a canvas element with id equals "paintGround" for us to draw on it.</li>
+<li>Link the simple css file, main.css and our core design javascript file, main.js to our index.html.</li>
+</ol>
+
+
+<p>Then take a look at main.css.
+``` css main.css
+body{</p>
+
+<pre><code>margin:0px;
+padding:0px;
+</code></pre>
+
+<p>}</p>
+
+<h1>paintGround{</h1>
+
+<pre><code>display:block;
+margin: 50px auto 0 auto;
+border:5px solid;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>Easy and simple, set display:block, adjust position of canvas element to the middle of whole page and add a 5px border for it.</p>
+
+<p>Let's start to write the basic setup for canvas in main.js.
+We are going to define the width and height of canvas element.
+``` javascript main.js
+window.onload = function()
+{</p>
+
+<pre><code>var canvas = document.getElementById("paintGround");
+var W = 799;
+var H = 600;
+canvas.width = W;
+canvas.height = H;
+</code></pre>
+
+<p>}
+```
+Due to the border, you can see the width and height of canvas are already being set up. <br/>
+Nice! Start to draw on it!</p>
+]]></content>
+  </entry>
+  
+</feed>
