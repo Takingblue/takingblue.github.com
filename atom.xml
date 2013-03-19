@@ -4,7 +4,7 @@
   <title><![CDATA[Takingblue Murmuring]]></title>
   <link href="http://Takingblue.github.com/atom.xml" rel="self"/>
   <link href="http://Takingblue.github.com/"/>
-  <updated>2013-03-18T22:49:28+08:00</updated>
+  <updated>2013-03-19T23:29:09+08:00</updated>
   <id>http://Takingblue.github.com/</id>
   <author>
     <name><![CDATA[Takingblue]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Simple HTML5 Canvas Game Tutorial: Arkanoid Part2]]></title>
+    <link href="http://Takingblue.github.com/blog/2013/03/19/simple-html5-canvas-game-tutorial-arkanoid-part2/"/>
+    <updated>2013-03-19T20:47:00+08:00</updated>
+    <id>http://Takingblue.github.com/blog/2013/03/19/simple-html5-canvas-game-tutorial-arkanoid-part2</id>
+    <content type="html"><![CDATA[<p>Base on result of part1, we can start to create some objects for Arkanoid. <br/>
+There are a ball, a panel and lots of bricks.
+We are going to draw them on the canvas element and control functionality by javascript.</p>
+
+<p>Open the main.js:</p>
+
+<!--more-->
+
+
+
+
+<figure class='code'><figcaption><span>main.js</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="s2">&quot;2d&quot;</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Simple HTML5 Canvas Game Tutorial: Arkanoid Part1]]></title>
@@ -102,7 +127,7 @@ We are going to define the width and height of canvas element.</p>
 </pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nb">window</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span>
 </span><span class='line'><span class="p">{</span>
 </span><span class='line'>    <span class="kd">var</span> <span class="nx">canvas</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;paintGround&quot;</span><span class="p">);</span>
-</span><span class='line'>    <span class="kd">var</span> <span class="nx">W</span> <span class="o">=</span> <span class="mi">799</span><span class="p">;</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">W</span> <span class="o">=</span> <span class="mi">800</span><span class="p">;</span>
 </span><span class='line'>    <span class="kd">var</span> <span class="nx">H</span> <span class="o">=</span> <span class="mi">600</span><span class="p">;</span>
 </span><span class='line'>    <span class="nx">canvas</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="nx">W</span><span class="p">;</span>
 </span><span class='line'>    <span class="nx">canvas</span><span class="p">.</span><span class="nx">height</span> <span class="o">=</span> <span class="nx">H</span><span class="p">;</span>
