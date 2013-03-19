@@ -52,7 +52,7 @@ We are going to define the width and height of canvas element.
 window.onload = function()
 {
     var canvas = document.getElementById("paintGround");
-    var W = 799;
+    var W = 800;
     var H = 600;
     canvas.width = W;
     canvas.height = H;
